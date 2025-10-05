@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Button, Container, Box, Slide, useScrollTrigger } from '@mui/material';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -16,6 +16,10 @@ function HideOnScroll(props) {
 }
 
 function App() {
+  useEffect(() => {
+    document.title = "موقع أ/علاء";
+  }, []);
+
   return (
     <Box
       sx={{
@@ -75,7 +79,7 @@ function App() {
                   whiteSpace: 'nowrap',
                 }}
               >
-                Alaa Mohamed Abdelghany
+                علاء محمد عبدالغني
               </Typography>
               <Button
                 color="primary"
@@ -93,7 +97,7 @@ function App() {
                   },
                 }}
               >
-                About
+                الرئيسية
               </Button>
               <Button
                 color="primary"
@@ -111,7 +115,7 @@ function App() {
                   },
                 }}
               >
-                Contact
+                تواصل
               </Button>
             </Toolbar>
           </AppBar>

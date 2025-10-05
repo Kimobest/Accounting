@@ -4,7 +4,7 @@ import SendIcon from '@mui/icons-material/Send';
 
 function Contact() {
   return (
-    <Fade in timeout={1000}>
+    <Fade in timeout={900}>
       <Paper
         sx={{
           p: { xs: 3, sm: 5 },
@@ -14,13 +14,14 @@ function Contact() {
           boxShadow: 12,
           background: 'rgba(255,255,255,0.98)',
           backdropFilter: 'blur(18px)',
+          direction: 'rtl',
         }}
       >
         <Typography variant="h5" gutterBottom sx={{ fontWeight: 900, color: 'primary.main', letterSpacing: 1 }}>
-          Contact
+          تواصل معنا
         </Typography>
         <Typography variant="body1" sx={{ mb: 3, color: '#22223b', fontWeight: 500 }}>
-          Interested in working together or have questions? Send a message:
+          يمكنك التواصل معنا عبر النموذج التالي لأي استفسار أو طلب خدمة.
         </Typography>
         <Box
           component="form"
@@ -29,15 +30,16 @@ function Contact() {
           sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}
         >
           <TextField
-            label="Your email"
+            label="البريد الإلكتروني"
             name="email"
             type="email"
             required
             variant="outlined"
             sx={{ borderRadius: 2, background: '#f3f4f6' }}
+            inputProps={{ style: { direction: 'ltr' } }}
           />
           <TextField
-            label="Your message"
+            label="رسالتك"
             name="message"
             multiline
             minRows={4}
@@ -66,7 +68,7 @@ function Contact() {
               },
             }}
           >
-            Send
+            إرسال
           </Button>
         </Box>
       </Paper>
