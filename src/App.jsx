@@ -75,7 +75,7 @@ function App() {
                   whiteSpace: 'nowrap',
                 }}
               >
-                علاء محمد عبدالغني
+                المحاسب القانونى أ/علاء
               </Typography>
               <Button
                 color="primary"
