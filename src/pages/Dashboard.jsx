@@ -170,7 +170,7 @@ function Dashboard() {
               '100%': { opacity: 1, transform: 'translateY(0)' }
             }
           }}>
-            علاء محمد عبدالغني
+            المحاسب القانونى أ/علاء محمد عبدالغني
           </Typography>
           <Chip
             label="محاسب قانونى - خبير ضرائب - خبير مثمن - مصفى قضائى"
