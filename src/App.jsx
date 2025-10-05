@@ -75,7 +75,7 @@ function App() {
                   whiteSpace: 'nowrap',
                 }}
               >
-                المحاسب القانونى أ/علاء
+                Alaa Mohamed Abdelghany
               </Typography>
               <Button
                 color="primary"
@@ -93,7 +93,7 @@ function App() {
                   },
                 }}
               >
-                الرئيسية
+                About
               </Button>
               <Button
                 color="primary"
@@ -111,7 +111,7 @@ function App() {
                   },
                 }}
               >
-                تواصل
+                Contact
               </Button>
             </Toolbar>
           </AppBar>

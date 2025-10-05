@@ -11,7 +11,7 @@ function Dashboard() {
           textAlign: 'center',
           borderRadius: 12,
           boxShadow: '0 12px 48px 0 rgba(31,38,135,0.22)',
-          background: `linear-gradient(135deg, #f8fafc 60%, #e0e7ff 100%)`,
+          background: 'linear-gradient(135deg, #f8fafc 60%, #e0e7ff 100%)',
           backdropFilter: 'blur(22px)',
           direction: 'rtl',
           position: 'relative',
@@ -20,63 +20,6 @@ function Dashboard() {
         }}
       >
         {/* زخرفة خلفية عصرية متدرجة ودوائر شفافة */}
-        {/* --- إضافة أيقونات محاسبية كخلفية شفافة --- */}
-        <Box
-          sx={{
-            position: 'absolute',
-            top: 40,
-            left: 30,
-            zIndex: 0,
-            opacity: 0.10,
-            fontSize: { xs: 60, sm: 90 },
-            pointerEvents: 'none',
-            userSelect: 'none',
-          }}
-        >
-          💹
-        </Box>
-        <Box
-          sx={{
-            position: 'absolute',
-            bottom: 60,
-            right: 40,
-            zIndex: 0,
-            opacity: 0.11,
-            fontSize: { xs: 54, sm: 80 },
-            pointerEvents: 'none',
-            userSelect: 'none',
-          }}
-        >
-          📊
-        </Box>
-        <Box
-          sx={{
-            position: 'absolute',
-            top: 120,
-            right: 60,
-            zIndex: 0,
-            opacity: 0.09,
-            fontSize: { xs: 48, sm: 70 },
-            pointerEvents: 'none',
-            userSelect: 'none',
-          }}
-        >
-          🧾
-        </Box>
-        <Box
-          sx={{
-            position: 'absolute',
-            bottom: 40,
-            left: 60,
-            zIndex: 0,
-            opacity: 0.09,
-            fontSize: { xs: 44, sm: 65 },
-            pointerEvents: 'none',
-            userSelect: 'none',
-          }}
-        >
-          💰
-        </Box>
         <Box
           sx={{
             position: 'absolute',
@@ -173,7 +116,7 @@ function Dashboard() {
             علاء محمد عبدالغني
           </Typography>
           <Chip
-            label="علاء محمد عبدالغني"
+            label="محاسب قانونى - خبير ضرائب - خبير مثمن - مصفى قضائى"
             color="primary"
             variant="outlined"
             sx={{
